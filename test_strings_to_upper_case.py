@@ -6,3 +6,6 @@ class TestTOUpperFunction(unittest.TestCase):
 		expected = "WORDS"
 		actual = to_upper("words")
 		self.assertEqual(actual, "WORDS")
+
+	def test_if_to_upper_function_rejects_integer(self):
+		
