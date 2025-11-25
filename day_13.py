@@ -9,7 +9,6 @@ def  find_next_square(number):
         return new_perfect_square
     else:
         return -1
-    print("is not perfect") 
 
 
 print("Welcome, this function helps you get the next perfect sqaure after your input")
